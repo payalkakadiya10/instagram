@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    outline: 0;
+}
+
+body {
+    background-color:#fff;
+    font-family: Roboto, sans-serif;
+}
+main {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:-50px;
+    min-height: 100px;
+    margin:10px;
+  
+}
+
+.form-div {
+    display:flex;
+    flex-direction: column;
+    padding: 20px;
+   
+}
+.form-div form{ 
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 3px 2px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+
+
+}
+.form-div form .instalogo {
+    width:200px;
+    margin: 20px 0px;
+    background-color: #fff;
+}
+.input {
+    width: 85%;
+    padding: 10px 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;   
+}
+
+.btn {
+    color: #fff;
+    background-color: rgb(30, 133, 174);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    padding: 6px;
+    font-weight: 700;
+    width: 90%;
+}
+
+#or {
+    margin: 20px 0;
+
+}
+#or:before,
+#or:after {
+    content: '---------------';
+    color: rgba(128, 128, 128, 0.6);
+    margin: 0px 10px;
+}
+.fb-logo {
+    width:30px;
+    display: inline-block;
+}
+.fb-login {
+    font-weight: 700;
+    font-size: 100%;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.side {
+    margin:20px;
+    padding:15px 25px;
+    text-align:center;
+    border:1px solid rgba(128, 128, 128, 0.6);
+   
+    
+} 
+.pwd{
+    color:black;
+    font-size: 15px;
+    margin:10px;
+
+
+}
